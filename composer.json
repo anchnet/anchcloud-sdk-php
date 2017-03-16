@@ -1,7 +1,6 @@
 {
   "name": "51idc/anchcloud-sdk-php",
   "description": "Anchcloud SDK for php",
-  "minimum-stability": "dev",
   "license": "proprietary",
   "authors": [
     {
