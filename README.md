@@ -8,7 +8,7 @@ Anchcloud SDK for PHP
 ## Use Composer
 
 ```
-composer require 51idc/anchcloud-sdk-php
+composer require 51idc/anchcloud-sdk-php:dev-master
 ```
 
 ## Single File
