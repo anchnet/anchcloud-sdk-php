@@ -64,7 +64,9 @@ class InstancesClient extends IaasClient
      */
     public function startInstances($zone, array $instances)
     {
-        return $this->send('POST', "/v2/zone/{$zone}/instances/start", ['json' => $instances]);
+        return $this->send('POST', "/v2/zone/{$zone}/instances/start", ['json' => [
+            'instances' => $instances,
+        ]]);
     }
 
     /**
@@ -76,7 +78,9 @@ class InstancesClient extends IaasClient
      */
     public function stopInstances($zone, array $instances)
     {
-        return $this->send('POST', "/v2/zone/{$zone}/instances/stop", ['json' => $instances]);
+        return $this->send('POST', "/v2/zone/{$zone}/instances/stop", ['json' => [
+            'instances' => $instances,
+        ]]);
     }
 
     /**
@@ -88,7 +92,9 @@ class InstancesClient extends IaasClient
      */
     public function restartInstances($zone, array $instances)
     {
-        return $this->send('POST', "/v2/zone/{$zone}/instances/restart", ['json' => $instances]);
+        return $this->send('POST', "/v2/zone/{$zone}/instances/restart", ['json' => [
+            'instances' => $instances,
+        ]]);
     }
 
     /**
