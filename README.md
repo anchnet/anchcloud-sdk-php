@@ -5,6 +5,21 @@ Anchcloud SDK for PHP
 
 首先在云平台获取 Client Key 和秘钥 [https://console.51idc.com/user/apikeypair/](https://console.51idc.com/user/apikeypair/)
 
+- [x] 基础认证
+- [ ] 主机实例
+- [ ] 磁盘
+- [ ] 快照备份
+- [ ] 公网 IP
+- [ ] 私有网络
+- [ ] 云路由器
+- [ ] 云负载均衡器
+- [ ] 云数据库
+- [ ] 云防火墙
+- [ ] SSH 秘钥
+- [ ] 系统镜像
+- [ ] 回收站
+- [ ] 用户信息管理
+
 ## Use Composer
 
 ```
