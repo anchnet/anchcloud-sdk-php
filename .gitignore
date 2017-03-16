@@ -1,0 +1,13 @@
+/vendor
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
+.idea
+.vscode
+.phpstorm.meta.php
+_ide_helper.php
+_ide_helper_models.php
+build.
+.DS_store
+composer.lock
