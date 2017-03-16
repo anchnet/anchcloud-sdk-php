@@ -21,7 +21,7 @@ Anchcloud SDK for PHP
 - [ ] 用户信息管理
 
 ## Use Composer
-
+[Packagist](https://packagist.org/packages/51idc/anchcloud-sdk-php)
 ```
 composer require 51idc/anchcloud-sdk-php:dev-master
 ```
