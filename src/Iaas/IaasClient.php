@@ -42,7 +42,7 @@ class IaasClient
     /** @var  BasicProvider */
     protected $basicProvider;
 
-    public static $endpoint = 'https://openapi.51idc.com';
+    public static $endpoint = 'https://openapi.anchnet.com';
 
     /** @var  AccessToken */
     protected $accessToken;
